@@ -1,2 +1,73 @@
 /* brown: #411f1f, Mint: #cedebd, Aqua: #86c4ba, cream: faf0d7, offwhite: #f3f3f3 */
+body {
+    margin: 0px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+ul {
+    display: flex;  
+    list-style: none; 
+    margin: 0px; 
+    column-gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color:#faf0d7;
+    margin: 0px;
+}
+
+.hero {
+    background-color: #411f1f;
+    color: #faf0d7;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px;
+    
+}
+
+.header {
+    display: flex;
+    padding-top: 25px;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+}
+.top {
+    display: flex;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainpic {
+    
+    height: auto;
+    width: 300px;
+}
+
+.center {
+    display: flex;
+}
+
+.inspiration {
+    display: flex;
+}
+
+.call {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+}
+
+
 
