@@ -16,9 +16,10 @@ ul {
 
 a {
     text-decoration: none;
-    color:#faf0d7;
+    color:#EFE4CA;
     margin: 0px;
 }
+
 
 .hero {
     background-color: #411f1f;
@@ -40,6 +41,8 @@ a {
 }
 .top {
     display: flex;
+    justify-content: space-between;
+    
 }
 
 .intro {
@@ -47,14 +50,29 @@ a {
     flex-direction: column;
 }
 
-.mainpic {
-    
-    height: auto;
-    width: 300px;
+.mainpic img {
+    display: flex;
+    max-width: 450px;
 }
+
+.title {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.words {
+    font-size: 18px;
+    color: #EFE4CA;
+}
+
 
 .center {
     display: flex;
+}
+
+.icon {
+    max-width: 200px;
+    
 }
 
 .inspiration {
