@@ -1,4 +1,4 @@
-/* brown: #411f1f, Mint: #cedebd, Aqua: #86c4ba, cream: faf0d7, offwhite: #f3f3f3 */
+/* brown: #411f1f, Mint: #cedebd, Aqua: #86c4ba, cream: faf0d7, light cream: FFFBF2, offwhite: #f3f3f3 */
 body {
     margin: 0px;
 }
@@ -35,7 +35,7 @@ button {
 
 .hero {
     background-color: #411f1f;
-    color: #faf0d7;
+    color: #FFFBF2;
     display: flex;
     flex-direction: column;
     
@@ -67,7 +67,7 @@ button {
 }
 
 .mainpic img {
-    max-width: 500px;
+    max-width: 600px;
     
 }
 
@@ -84,11 +84,28 @@ button {
 
 .center {
     display: flex;
+    background-color: #FFFBF2;
+}
+
+.varieties {
+    color:#411f1f;
+    font-size: 36px;
+    font-weight: 800;
 }
 
 .icon {
-    max-width: 200px;
+    border: solid 2px #cedebd;
+    border-radius: 10px;
     
+}
+
+.icon img {
+    height: auto;
+    width: 200px;
+}
+
+.thumbnails {
+    display: flex;
 }
 
 .inspiration {
