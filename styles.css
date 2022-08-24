@@ -3,10 +3,6 @@ body {
     margin: 0px;
 }
 
-h4 {
-    font-size: 24px;
-}
-
 ul {
     display: flex;  
     list-style: none; 
@@ -20,13 +16,29 @@ a {
     margin: 0px;
 }
 
+button {
+    background-color: #cedebd;
+    color:#411f1f;
+    max-width: 130px;
+    padding: 7px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.hero,
+.center,
+.inspiration,
+.call,
+.footer {
+    padding: 0px 250px;
+}
 
 .hero {
     background-color: #411f1f;
     color: #faf0d7;
     display: flex;
     flex-direction: column;
-    padding: 0px 100px;
+    
     
 }
 
@@ -42,17 +54,21 @@ a {
 .top {
     display: flex;
     justify-content: space-between;
+    column-gap: 200px;
+    margin: 100px 0;
     
 }
 
 .intro {
     display: flex;
     flex-direction: column;
+    row-gap: 15px;
+    
 }
 
 .mainpic img {
-    display: flex;
-    max-width: 450px;
+    max-width: 500px;
+    
 }
 
 .title {
