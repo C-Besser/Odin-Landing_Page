@@ -73,7 +73,7 @@ button {
 
 .title {
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .words {
@@ -85,35 +85,81 @@ button {
 .center {
     display: flex;
     background-color: #FFFBF2;
+    padding-top: 50px;
+    padding-bottom: 6em;
+    justify-content: center;
+    
 }
 
 .varieties {
+    display: flex;
     color:#411f1f;
     font-size: 36px;
     font-weight: 800;
+    justify-content: center;
+    background-color: #FFFBF2;
+    padding-top: 50px;
+
 }
 
 .icon {
-    border: solid 2px #cedebd;
-    border-radius: 10px;
+    text-align: center;
+    max-width: 200px;
     
 }
 
 .icon img {
     height: auto;
     width: 200px;
+    border: solid 2px #cedebd;
+    border-radius: 10px;
+    margin-bottom: 5px;
 }
 
 .thumbnails {
     display: flex;
+    column-gap: 40px;
+    color:#411f1f;
+   
 }
 
 .inspiration {
     display: flex;
+    background-color: #faf0d7;
+    flex-direction: column;
+    color:#411f1f;
+    padding: 100px 550px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    
+
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 1.4em;
+    font-weight: 600;
+    padding-top: 1em;
 }
 
 .call {
+    padding: 75px 250px;
+    background-color: #FFFBF2;
+}
+.card {
+    background-color: #cedebd;
     display: flex;
+    justify-content: center;
+
+}
+
+
+.action {
+    
 }
 
 .footer {
