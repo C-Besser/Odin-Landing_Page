@@ -20,6 +20,8 @@ button {
     background-color: #cedebd;
     color:#411f1f;
     max-width: 130px;
+    width: 130px;
+    height: 50px;
     padding: 7px;
     border-radius: 10px;
     font-size: 18px;
@@ -153,17 +155,31 @@ button {
 .card {
     background-color: #cedebd;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 50px 300px;
+    align-items: center;
 
 }
 
 
-.action {
+p {
+    font-size: 18px;
+    margin: 5px;
+}
+
+.best {
+    font-weight: bold;
     
 }
 
 .footer {
     display: flex;
+    background-color: #411f1f;
+    color: #FFFBF2;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 18px;
 }
 
 
